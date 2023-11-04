@@ -12,7 +12,7 @@ const Projects = () => {
             <h2 className='py-4'>What I've Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
 
-                <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#398378] to-[#3fa38c]'>
+                <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#29655c] to-[#3fa38c]'>
                     <Image className='rounded-xl group-hover:opacity-10' src={blogImg} alt="/" />
                     <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
                         <h3 className='text-white text-2xl tracking-wider text-center'>Fly-Fishing Blog</h3>
