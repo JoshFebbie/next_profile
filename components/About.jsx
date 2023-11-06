@@ -24,8 +24,7 @@ const About = () => {
           <p className="py-2 text-gray-600">
             As much as I love code, I believe balance is key. Away from the
             keyboard, you'll find me embracing the great outdoors. Whether it's
-            backpacking through serene trails, setting up camp under the stars,
-            perfecting the art of fly-fishing, or navigating rivers by kayak, I
+            backpacking through serene trails, setting up camp under the stars, fly-fishing, or kayaking a lake, I
             find that my best ideas often come to me when I'm surrounded by
             nature. It's in these moments of adventure and tranquility that I
             find the inspiration and creativity that I bring back to my work.

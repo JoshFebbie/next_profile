@@ -24,8 +24,8 @@
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#398378] to-[#2c524c] text-white;
-  }
+    @apply shadow-xl shadow-gray-500 rounded-xl uppercase bg-gradient-to-r from-[#3fa38c] to-[#398378] text-white;
+  } 
 }
 
 /* In your CSS file */
