@@ -27,17 +27,17 @@ const Projects = () => {
           <ProjectItem
             title="GPT-3.5 Clone"
             backgroundImg={gptImg}
-            projectUrl="/property"
+            projectUrl="/gpt"
           />
           <ProjectItem
             title="Recipe App"
             backgroundImg={recipeImg}
-            projectUrl="/property"
+            projectUrl="/recipe"
           />
           <ProjectItem
             title="Movies App"
             backgroundImg={moviesImg}
-            projectUrl="/property"
+            projectUrl="/movies"
           />
         </div>
       </div>

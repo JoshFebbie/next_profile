@@ -19,7 +19,6 @@ const blog = () => {
         />
         <div className="absolute top-[70%] max-w-[1240] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 p-2">
           <h2 className="py-2 text-white">Fly-Fishing Blog</h2>
-          <h3>MERN-Stack</h3>
         </div>
       </div>
 
@@ -43,7 +42,7 @@ const blog = () => {
           <button className="px-8 py-2 mt-4 mr-8 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-110 transition duration-500 ease-in-out cursor-pointer">Demo</button>
           <button className="px-8 py-2 mt-4 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-110 transition duration-500 ease-in-out cursor-pointer">Code</button>
         </div>
-        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
+        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 border-2 border-gray-300">
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
@@ -63,9 +62,6 @@ const blog = () => {
                 <RiRadioButtonFill className="pr-2" />Multer
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-2" />Jsonwebtoken
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-2" />Bcrypt
               </p>
               <p className="text-gray-600 py-2 flex items-center">
@@ -77,7 +73,7 @@ const blog = () => {
             </div>
           </div>
         </div>
-        <Link href="/">
+        <Link href="/#projects">
           <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>

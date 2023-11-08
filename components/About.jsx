@@ -24,7 +24,7 @@ const About = () => {
           <p className="py-2 text-gray-600">
             As much as I love code, I believe balance is key. Away from the
             keyboard, you'll find me embracing the great outdoors. Whether it's
-            backpacking through serene trails, setting up camp under the stars, fly-fishing, or kayaking a lake, I
+            backpacking through serene trails, setting up camp under the stars, fly-fishing, or kayaking a new body of water, I
             find that my best ideas often come to me when I'm surrounded by
             nature. It's in these moments of adventure and tranquility that I
             find the inspiration and creativity that I bring back to my work.
@@ -33,7 +33,7 @@ const About = () => {
             talk. Let's create something remarkable together!
           </p>
           
-          <p className="py-2 text-gray-600 underline cursor-pointer">Check out some of my latest projects.</p>
+          {/* <p className="py-2 text-gray-600 underline cursor-pointer">Check out some of my latest projects.</p> */}
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-2 hover:scale-105 ease-in duration-300">
           <img className="rounded-xl" src="/assets/about2.jpg" alt="" />
