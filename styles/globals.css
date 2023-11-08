@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth
+}
+
 @layer base {
   body {
     @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide ;
@@ -45,9 +49,9 @@ p {
 
 }
 
-#connect {
+/* #connect {
   color: #000000;
-}
+} */
 
 h3 {
   color: #398378;

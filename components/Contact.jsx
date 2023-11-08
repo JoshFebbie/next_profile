@@ -92,7 +92,7 @@ const Contanct = () => {
                  ></textarea>
               </div>
               {/* <button className="bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-105 transition duration-500 ease-in-out cursor-pointer w-full p-4 mt-4" >Send Message</button> */}
-              <button className="bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-105 active:bg-[#357a6b] active:scale-100 transition duration-500 ease-in-out cursor-pointer w-full p-2 mt-4">
+              <button className="bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-105 active:bg-[#357a6b] active:scale-100 transition duration-300 ease-in-out cursor-pointer w-full p-2 mt-4">
   Send Message
 </button>
             </form>
@@ -101,8 +101,8 @@ const Contanct = () => {
         </div>
           <div className="flex justify-center py-12">
             <Link href="/">
-              <div>
-                <HiOutlineChevronDoubleUp />
+              <div className="p-5 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-105 transition duration-500 ease-in-out cursor-pointer">
+                <HiOutlineChevronDoubleUp className="text-white" size={20} />
               </div>
             </Link>
           </div>
