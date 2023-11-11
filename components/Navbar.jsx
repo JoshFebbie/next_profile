@@ -86,7 +86,7 @@ const Navbar = () => {
           <div onClick={handleNav} 
                className="md:hidden cursor-pointer"
                >
-            <AiOutlineMenu size={25} />
+            <AiOutlineMenu size={30}/>
           </div>
         </div>
       </div>
@@ -156,9 +156,9 @@ const Navbar = () => {
                 <div className="p-3 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-110 transition duration-500 ease-in-out cursor-pointer">
                   <AiOutlineMail />
                 </div>
-                <div className="p-3 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-110 transition duration-500 ease-in-out cursor-pointer">
+                {/* <div className="p-3 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-110 transition duration-500 ease-in-out cursor-pointer">
                   <BsFillPersonLinesFill />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

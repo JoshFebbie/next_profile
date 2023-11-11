@@ -154,12 +154,16 @@ const Contanct = () => {
               <div>
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
+                  <a href="https://www.linkedin.com/in/josh-febbie-8aa82b248">
                   <div className="p-5 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-110 transition duration-500 ease-in-out cursor-pointer">
                     <FaLinkedinIn />
                   </div>
+                  </a>
+                  <a href="https://github.com/JoshFebbie">
                   <div className="p-5 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-110 transition duration-500 ease-in-out cursor-pointer">
                     <FaGithub />
                   </div>
+                  </a>
                   <div className="p-5 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-110 transition duration-500 ease-in-out cursor-pointer">
                     <AiOutlineMail />
                   </div>
@@ -228,7 +232,7 @@ const Contanct = () => {
                   ></textarea>
                 </div>
                 {/* <button className="bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-105 transition duration-500 ease-in-out cursor-pointer w-full p-4 mt-4" >Send Message</button> */}
-                <button className="bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-105 active:bg-[#357a6b] active:scale-100 transition duration-300 ease-in-out cursor-pointer w-full p-2 mt-4">
+                <button className="bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-105 active:bg-[#357a6b] active:scale-100 transition duration-300 ease-in-out cursor-pointer w-full p-2 mt-2">
                   Send Message
                 </button>
               </form>

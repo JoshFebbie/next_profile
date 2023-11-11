@@ -21,12 +21,16 @@ const Main = () => {
                     I'm a full-stack web developer who enjoys building things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
+                    <a href="https://www.linkedin.com/in/josh-febbie-8aa82b248">
                     <div className='p-5 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-110 transition duration-500 ease-in-out cursor-pointer'>
                         <FaLinkedinIn/>
                     </div>
+                    </a>
+                    <a href="https://github.com/JoshFebbie">
                     <div className='p-5 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-110 transition duration-500 ease-in-out cursor-pointer'>
                         <FaGithub />
                     </div>
+                    </a>
                     <div className='p-5 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-110 transition duration-500 ease-in-out cursor-pointer'>
                         <AiOutlineMail />
                     </div>
