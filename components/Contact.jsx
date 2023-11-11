@@ -114,12 +114,14 @@
 
 //------------------------------------------------------//
 
+
+
+
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Contanct = () => {
@@ -160,9 +162,6 @@ const Contanct = () => {
                   </div>
                   <div className="p-5 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-110 transition duration-500 ease-in-out cursor-pointer">
                     <AiOutlineMail />
-                  </div>
-                  <div className="p-5 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-110 transition duration-500 ease-in-out cursor-pointer">
-                    <BsFillPersonLinesFill />
                   </div>
                 </div>
               </div>
@@ -248,3 +247,110 @@ const Contanct = () => {
   );
 };
 export default Contanct;
+
+
+
+
+
+//------------------------------------------------------------------------------//
+
+
+
+// import React, { useState } from 'react';
+// import Image from "next/image";
+// import Link from "next/link";
+// import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+// import { AiOutlineMail } from "react-icons/ai";
+// import { BsFillPersonLinesFill } from "react-icons/bs";
+// import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+
+// const Contact = () => {
+//   // State for form fields
+//   const [formData, setFormData] = useState({
+//     name: '',
+//     phone: '',
+//     email: '',
+//     subject: '',
+//     message: '',
+//   });
+
+//   // Handle form input changes
+//   const handleChange = (e) => {
+//     const { name, value } = e.target;
+//     setFormData(prevFormData => ({
+//       ...prevFormData,
+//       [name]: value,
+//     }));
+//   };
+
+//   // Handle form submission
+//   const handleSubmit = async (e) => {
+//     e.preventDefault();
+
+//     try {
+//       const response = await fetch('https://getform.io/f/{your-unique-getform-endpoint}', {
+//         method: 'POST',
+//         headers: {
+//           'Accept': 'application/json',
+//           'Content-Type': 'application/json',
+//         },
+//         body: JSON.stringify(formData),
+//       });
+
+//       if (response.ok) {
+//         // Clear the form fields by resetting the formData state
+//         setFormData({
+//           name: '',
+//           phone: '',
+//           email: '',
+//           subject: '',
+//           message: '',
+//         });
+//         // Here you can also implement any success message or logic you'd like to show the user
+//       } else {
+//         // Handle any errors here
+//         console.error('Form submission failed:', response.statusText);
+//       }
+//     } catch (error) {
+//       console.error('There was an error submitting the form:', error);
+//     }
+//   };
+
+//   return (
+//     <div id="contact" className="w-full lg:h-screen">
+//       {/* ... rest of the component remains the same */}
+//       <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
+//         <div className="p-4">
+//           <form
+//             onSubmit={handleSubmit} // Add the onSubmit event handler here
+//           >
+//             {/* ... */}
+//             <div className="grid md:grid-cols-2 gap-4 w-full py-2">
+//               {/* ... other form fields */}
+//               <input
+//                 className="border-2 border-gray-300 p-2 rounded-lg w-full"
+//                 type="text"
+//                 name="name"
+//                 value={formData.name}
+//                 onChange={handleChange}
+//               />
+//               {/* ... repeat for each input with value and onChange */}
+//               {/* ... */}
+//             </div>
+//             {/* ... */}
+//             <button
+//               type="submit"
+//               className="bg-[#398378] text-white rounded-full shadow-lg shadow-gray-400 hover:bg-[#3fa38c] p-2 mt-4 w-full"
+//             >
+//               Send Message
+//             </button>
+//           </form>
+//         </div>
+//       </div>
+//       {/* ... */}
+//     </div>
+//   );
+// };
+
+// export default Contact;
+

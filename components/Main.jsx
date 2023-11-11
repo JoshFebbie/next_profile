@@ -30,9 +30,9 @@ const Main = () => {
                     <div className='p-5 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-110 transition duration-500 ease-in-out cursor-pointer'>
                         <AiOutlineMail />
                     </div>
-                    <div className='p-5 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-110 transition duration-500 ease-in-out cursor-pointer'>
+                    {/* <div className='p-5 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-110 transition duration-500 ease-in-out cursor-pointer'>
                         <BsFillPersonLinesFill />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

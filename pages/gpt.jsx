@@ -34,7 +34,7 @@ const gpt = () => {
             a clean and engaging user interface. The backend is where the OpenAI
             API works its magic, turning user inputs into articulate and
             intelligent text responses. <br />
-            <br />This application excels in delivering a conversational user interface where users can converse, question, and receive answers as if they were talking to a human. We've fine-tuned session management to ensure that the context is never lost. And with our responsive design, the experience is seamless across all devices.
+            <br />This application excels in delivering a conversational user interface where users can converse, question, and receive answers as if they were talking to a human. With fine-tuned session management to ensure that the context is never lost. And with it's responsive design, the experience is seamless across all devices.
           </p>
           <button className="px-8 py-2 mt-4 mr-8 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-110 transition duration-500 ease-in-out cursor-pointer">
             Demo
