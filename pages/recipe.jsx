@@ -75,8 +75,6 @@
 // };
 // export default recipe;
 
-
-
 ///---------------------------------------------------------------------------------------///
 
 import React, { useState } from "react";
@@ -84,7 +82,6 @@ import Image from "next/image";
 import recipeImg from "../public/assets/projects/recipe.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
-
 
 const VideoModal = ({ isOpen, videoSource, onClose }) => {
   if (!isOpen) return null;
@@ -107,7 +104,7 @@ const VideoModal = ({ isOpen, videoSource, onClose }) => {
   );
 };
 
-const recipe = () => {
+const Recipe = () => {
   const [isModalOpen, setModalOpen] = useState(false);
 
   // Define the video source URL directly
@@ -142,15 +139,15 @@ const recipe = () => {
           <p>Project</p>
           <h2 className="text-[#398378]">Overview</h2>
           <p>
-          Crafted with the modern web in mind, this app harnesses the power of
+            Crafted with the modern web in mind, this app harnesses the power of
             React for a seamless user experience, CSS for a visually enticing
-             interface, Axios for robust server communication, and Formik for
-             efficient form management. This combination ensures a robust and
-             responsive application that's a joy to use. With a simple query,
-             users can unearth recipes from a diverse selection. But it's not
-             just about taking; it's about giving back. Users can contribute
-             their culinary secrets, enriching the repository. And every recipe
-             is just a tap away, on any device, thanks to its responsive design.
+            interface, Axios for robust server communication, and Formik for
+            efficient form management. This combination ensures a robust and
+            responsive application that's a joy to use. With a simple query,
+            users can unearth recipes from a diverse selection. But it's not
+            just about taking; it's about giving back. Users can contribute
+            their culinary secrets, enriching the repository. And every recipe
+            is just a tap away, on any device, thanks to its responsive design.
           </p>
           <a onClick={openVideoModal}>
             <button className="px-8 py-2 mt-4 mr-8 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-110 transition duration-500 ease-in-out cursor-pointer">
@@ -199,4 +196,4 @@ const recipe = () => {
   );
 };
 
-export default recipe;
+export default Recipe;

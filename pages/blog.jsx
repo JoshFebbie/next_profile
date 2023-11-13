@@ -27,17 +27,17 @@
 //           <p>Project</p>
 //           <h2 className="text-[#398378]">Overview</h2>
 //           <p>
-//             Cast your line into the digital waters with 'Flies on the Fly', the
-//             ultimate online haven for fly fishing enthusiasts! This interactive
-//             blog app weaves together the vibrant threads of a passionate
-//             community, where anglers can share their tales of the one that
-//             didn't get away, post their proudest catches, and swap secrets on
-//             the best flies and techniques. Powered by the robust MERN stack,
-//             'Flies on the Fly' offers a seamless user experience, whether you're
-//             browsing for tips, contributing to the catch of the day, or simply
-//             soaking in the serene beauty of fly fishing through stunning photo
-//             shares. Dive in and join the conversation – because every fish story
-//             is worth telling!
+            // Cast your line into the digital waters with 'Flies on the Fly', the
+            // ultimate online haven for fly fishing enthusiasts! This interactive
+            // blog app weaves together the vibrant threads of a passionate
+            // community, where anglers can share their tales of the one that
+            // didn't get away, post their proudest catches, and swap secrets on
+            // the best flies and techniques. Powered by the robust MERN stack,
+            // 'Flies on the Fly' offers a seamless user experience, whether you're
+            // browsing for tips, contributing to the catch of the day, or simply
+            // soaking in the serene beauty of fly fishing through stunning photo
+            // shares. Dive in and join the conversation – because every fish story
+            // is worth telling!
 //           </p>
 //           <button className="px-8 py-2 mt-4 mr-8 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-110 transition duration-500 ease-in-out cursor-pointer">Demo</button>
 //           <button className="px-8 py-2 mt-4 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-110 transition duration-500 ease-in-out cursor-pointer">Code</button>
@@ -114,7 +114,7 @@ const VideoModal = ({ isOpen, videoSource, onClose }) => {
   );
 };
 
-const Movies = () => {
+const Blog = () => {
   const [isModalOpen, setModalOpen] = useState(false);
 
   // Define the video source URL directly
@@ -149,21 +149,17 @@ const Movies = () => {
           <p>Project</p>
           <h2 className="text-[#398378]">Overview</h2>
           <p>
-            Built with the dynamic capabilities of React, the versatility of
-            JavaScript, the styling finesse of CSS, and the reliable data
-            fetching provided by Axios, this app is a testament to what modern
-            web technology can accomplish. Together, these tools weave a
-            tapestry of technical excellence that supports a premium streaming
-            experience.
-            <br />
-            <br />
-            Discoverability is key in this app. Users can explore genres, search
-            for titles, and receive recommendations tailored to their tastes.
-            Each movie comes with detailed descriptions, ratings, and trailers,
-            ensuring that you're well-informed before diving into your next
-            watch. Our responsive design ensures that whether on a phone,
-            tablet, or desktop, your viewing experience remains uninterrupted
-            and adaptable to your lifestyle.
+            Cast your line into the digital waters with 'Flies on the Fly', the
+            ultimate online haven for fly fishing enthusiasts! This interactive
+            blog app weaves together the vibrant threads of a passionate
+            community, where anglers can share their tales of the one that
+            didn't get away, post their proudest catches, and swap secrets on
+            the best flies and techniques. Powered by the robust MERN stack,
+            'Flies on the Fly' offers a seamless user experience, whether you're
+            browsing for tips, contributing to the catch of the day, or simply
+            soaking in the serene beauty of fly fishing through stunning photo
+            shares. Dive in and join the conversation – because every fish story
+            is worth telling!
           </p>
           <a onClick={openVideoModal}>
             <button className="px-8 py-2 mt-4 mr-8 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-110 transition duration-500 ease-in-out cursor-pointer">
@@ -232,4 +228,4 @@ const Movies = () => {
   );
 };
 
-export default Movies;
+export default Blog;

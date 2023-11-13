@@ -75,16 +75,13 @@
 // };
 // export default gpt;
 
-
 //---------------------------------------------------------------------//
-
 
 import React, { useState } from "react";
 import Image from "next/image";
 import gptImg from "../public/assets/projects/gptclone.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
-
 
 const VideoModal = ({ isOpen, videoSource, onClose }) => {
   if (!isOpen) return null;
@@ -107,11 +104,11 @@ const VideoModal = ({ isOpen, videoSource, onClose }) => {
   );
 };
 
-const gpt = () => {
+const Gpt = () => {
   const [isModalOpen, setModalOpen] = useState(false);
 
   // Define the video source URL directly
-  const videoSource = "/assets/projects/recipe.mp4";
+  const videoSource = "/assets/projects/gpt.mp4";
 
   const openVideoModal = () => {
     setModalOpen(true);
@@ -142,15 +139,21 @@ const gpt = () => {
           <p>Project</p>
           <h2 className="text-[#398378]">Overview</h2>
           <p>
-             This app is woven with the finest threads of technology. React, a
-             powerhouse for building dynamic interfaces, lays the foundation. And
-             the OpenAI API, the brain behind the operation, makes natural
-             language processing look effortless.The app's architecture is a duet
-             of simplicity and power. The frontend, crafted with React, provides
-             a clean and engaging user interface. The backend is where the OpenAI           API works its magic, turning user inputs into articulate and
-             intelligent text responses. <br />
-             <br />This application excels in delivering a conversational user interface where users can converse, question, and receive answers as if they were talking to a human. With fine-tuned session management to ensure that the context is never lost. And with it's responsive design, the experience is seamless across all devices.
-           </p>
+            This app is woven with the finest threads of technology. React, a
+            powerhouse for building dynamic interfaces, lays the foundation. And
+            the OpenAI API, the brain behind the operation, makes natural
+            language processing look effortless.The app's architecture is a duet
+            of simplicity and power. The frontend, crafted with React, provides
+            a clean and engaging user interface. The backend is where the OpenAI
+            API works its magic, turning user inputs into articulate and
+            intelligent text responses. <br />
+            <br />
+            This application excels in delivering a conversational user
+            interface where users can converse, question, and receive answers as
+            if they were talking to a human. With fine-tuned session management
+            to ensure that the context is never lost. And with it's responsive
+            design, the experience is seamless across all devices.
+          </p>
           <a onClick={openVideoModal}>
             <button className="px-8 py-2 mt-4 mr-8 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-110 transition duration-500 ease-in-out cursor-pointer">
               Demo
@@ -202,4 +205,4 @@ const gpt = () => {
   );
 };
 
-export default gpt;
+export default Gpt;
