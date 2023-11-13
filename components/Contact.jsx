@@ -428,11 +428,11 @@
 //           </div>
 //         </div>
 //         <div className="flex justify-center py-12">
-//           {/* <Link href="/">
-//             <div className="p-5 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-105 transition duration-500 ease-in-out cursor-pointer">
-//               <HiOutlineChevronDoubleUp className="text-white" size={20} />
-//             </div>
-//           </Link> */}
+          // {/* <Link href="/">
+          //   <div className="p-5 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-105 transition duration-500 ease-in-out cursor-pointer">
+          //     <HiOutlineChevronDoubleUp className="text-white" size={20} />
+          //   </div>
+          // </Link> */}
 //         </div>
 //       </div>
 //     </div>
@@ -447,6 +447,8 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
+import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import Link from "next/link";
 
 
 const Contanct = () => {
@@ -633,6 +635,11 @@ const Contanct = () => {
           </div>
         </div>
         <div className="flex justify-center py-12">
+        <Link href="/">
+          <div className="p-5 bg-[#398378] text-white rounded-full shadow-lg shadow-gray-500 hover:bg-[#3fa38c] hover:scale-105 transition duration-500 ease-in-out cursor-pointer">
+          <HiOutlineChevronDoubleUp className="text-white" size={20} />
+          </div>
+        </Link> 
         </div>
       </div>
     </div>
