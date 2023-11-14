@@ -23,7 +23,7 @@ const Main = () => {
             I'm a full-stack web developer who enjoys building things that live
             on the internet, whether that be websites, applications, or anything
             in between. My goal is to always build products that provide
-            pixel-perfect, performant experiences.
+            pixel-perfect,and highly performant experiences.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a href="https://www.linkedin.com/in/josh-febbie-8aa82b248">
